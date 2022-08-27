@@ -1,0 +1,15 @@
+### fetch all cocktails
+GET http://localhost:3000/cocktails
+
+### fetch random drink
+GET http://localhost:3000/cocktail/random
+
+### create cocktail
+POST http://localhost:3000/cocktails 
+Content-Type: application/json
+
+{
+    "name": "Test name"
+}
+
+

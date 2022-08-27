@@ -1,0 +1,15 @@
+:root{
+    /* CSS HEX */
+--celadon: #baf2bbff;
+--magic-mint: #baf2d8ff;
+--beau-blue: #bad7f2ff;
+--orchid-pink: #f2bac9ff;
+--dutch-white: #f2e2baff;
+}
+body {
+    background-color: blue;
+    color: silver;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
