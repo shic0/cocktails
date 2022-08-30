@@ -18,10 +18,12 @@
 
 8.Uppgiften lämnas in i tid 
 
+## Stack
 Projektet är byggt i vanila JavaScript i frontenden, och med Express och NodeJs i backenden.
-För att kunna göra fetch anrop i backended så har jag använt node-fetch
+För att kunna göra fetch anrop i backended så har jag använt node-fetch. Projektet är buildless.
 
-För att starta projektet: 
+
+## För att starta projektet: 
 Börja med att skriva ´npm i´, för att installera dependencies från package.json
 För att starta projektet så kör ´npm start' i root map
 Öppna en webbläsare och skriv http://localhost:3000/ i url:en, för att se clientgränssnittet 
