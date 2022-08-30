@@ -23,9 +23,12 @@ app.post("/cocktails", (req, res) => {
     res.end()
 })
 
+// endpoint för att hämta random drink från externt API
 app.get("/cocktail/random", async (req, res) => {
   const resTwo = await fetch('https://www.thecocktaildb.com/api/json/v1/1/random.php')
   const data = await resTwo.json()
   res.send(data)
 })
+
+// server-port
 app.listen(3000)

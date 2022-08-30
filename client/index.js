@@ -11,8 +11,7 @@ const fetchList = async () => {
 
 const addCocktail = async () => {
     const input = document.getElementById("addCocktail")
-    console.log("skapa ny", input.value)
-
+/*  console.log("skapa ny", input.value) */
     const data = {name: input.value}
     const svar = await fetch("/cocktails", {
         method : "POST",
@@ -29,7 +28,7 @@ sparaBtn.addEventListener("click", addCocktail)
 async function fetchExternalApi () {
     const res = await fetch('/cocktail/random')
     const data = await res.json()
-    console.log('Min random cocktail', data.drinks[0])
+   /* console.log('Min random cocktail', data.drinks[0]) */
     const input = document.getElementById("addCocktail")
     const drink = data.drinks[0]
     input.value = drink.strDrink
