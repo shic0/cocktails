@@ -24,7 +24,7 @@ För att kunna göra fetch anrop i backended så har jag använt node-fetch. Pro
 
 
 ## För att starta projektet: 
-Börja med att skriva ´npm i´, för att installera dependencies från package.json
-För att starta projektet så kör ´npm start' i root map
+Börja med att skriva `npm i`, för att installera dependencies från package.json
+För att starta projektet så kör `npm start` i root map
 Öppna en webbläsare och skriv http://localhost:3000/ i url:en, för att se clientgränssnittet 
 
